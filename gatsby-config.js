@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `kiosk`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `tk`,
+      summary: `kiosk`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `kiosk blog`,
+    siteUrl: `https://test.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `dril`,
     },
   },
   plugins: [
@@ -121,5 +121,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Work Sans\:400,400i` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
   ],
 }
